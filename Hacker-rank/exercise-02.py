@@ -1,0 +1,5 @@
+username = str(input("Enter Username :"))
+password = str(input("Enter Password :"))
+pass_len = len(password)
+secured_pass = '*' * len(password)
+print('Hey', username,',your password', secured_pass, 'is', pass_len, 'letters long.')

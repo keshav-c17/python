@@ -1,0 +1,5 @@
+n = int(input("Enter Number: "))
+integer_list = map(int, input("Enter elements: ").split())
+arr = list(integer_list)
+t_func = lambda list: (*list,)
+print(hash(t_func(arr)))
