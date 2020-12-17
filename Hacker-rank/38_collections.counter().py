@@ -1,3 +1,5 @@
+#LINK TO THE PROBLEM: https://www.hackerrank.com/challenges/collections-counter/problem
+
 from collections import Counter
 x = int(input()) #no. of shoes
 a_shoe_size_ls = dict(Counter(list(map(int,input().split())))) #available shoe sizes
