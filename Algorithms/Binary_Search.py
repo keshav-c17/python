@@ -6,7 +6,6 @@ def binary_search(arr, element):
         mid_index = (upper_bound + lower_bound) // 2
 
         if arr[mid_index] == element:
-
             return f"Number found at index: {mid_index}"
 
         else:
