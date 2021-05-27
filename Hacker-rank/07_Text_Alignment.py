@@ -1,6 +1,5 @@
 #Replace all ______ with rjust, ljust or center.
 #USED HIT n TRIAL, LEARNED NOTHING
-
 thickness = int(input("Enter Thickness: ")) #This must be an odd number
 c = 'H'
 

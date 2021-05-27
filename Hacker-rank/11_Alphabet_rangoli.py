@@ -1,10 +1,9 @@
 #Creating a List(L) containing all the alphabets
 import string
-alpha = string.ascii_lowercase
+alphabets = string.ascii_lowercase
 L = []
-for i in alpha:
-    if i not in L:
-        L.append(i)
+for i in alphabets:
+    L.append(i)
 
 n = int(input("Enter Size: "))
 
